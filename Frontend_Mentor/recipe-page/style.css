@@ -1,0 +1,147 @@
+@font-face{
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-family: Outfit;
+}
+
+@font-face{
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-family: YoungSerif;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-family: Outfit;
+}
+
+
+
+.wrapper{
+    background-color: white;
+    border-radius: 20px;
+
+    width: 650px;
+    padding: 2.5em;
+    margin-top: 4em;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrapper img{
+    border-radius: 20px;
+    width: 650px;
+}
+
+
+
+h1{
+    font-family: YoungSerif;
+    font-size: 3em;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 5px;
+}
+
+h2{
+    font-family: YoungSerif;
+    font-size: 2em;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+h4{
+    display: inline;
+    color: hsl(30, 10%, 34%);
+}
+
+h4 + p{
+    display: inline;
+}
+
+
+
+.preptime{
+    background-color: hsl(330, 100%, 98%);
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.preptime h3{
+    margin-left: 1em;
+}
+
+.preptime ul li{
+    padding-left: 1em;
+    color: hsl(332, 51%, 32%);
+}
+
+
+
+.ing-list{
+    padding-left: 1.7em;
+    margin-bottom: 2.5em;
+}
+
+.ing-list li{
+    padding-left: 1em;
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+.instructions{
+    padding-left: 1.7em;
+}
+
+.instructions li{
+    padding-left: 1.2em;
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 1em;
+}
+
+
+
+.tbl{
+    border-collapse: collapse;
+}
+
+.tbl th{
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-family: Outfit;
+
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.8em;
+    padding-left: 1.5em;
+}
+
+.tbl td{
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(14, 45%, 36%);
+    font-family: Outfit;
+
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.8em;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+.tbl tr:last-child th{
+    border-bottom: none;
+}
+
+.tbl tr:last-child td{
+    border-bottom: none;
+}
