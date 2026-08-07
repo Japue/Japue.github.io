@@ -9,11 +9,15 @@ body{
     background-color: hsl(47, 88%, 63%);
 }
 
+h1{
+    display: none;
+}
+
 .wrapper{
     background-color: white;
     border: 1px solid black;
     border-radius: 20px;
-    padding: 20px;
+    padding: 1em;
     width: 336px;
 
     position: absolute;
@@ -23,7 +27,7 @@ body{
 }
 
 .wrapper p{
-    font-family: Figtree;
+    font-family: Figtree, Arial;
 }
 
 .wrapper > img:first-child{
@@ -38,7 +42,7 @@ body{
     height: 35px;
 
     font-weight: 800;
-    font-family: Figtree;
+    font-family: Figtree, Arial;
 
     display: flex;
     align-items: center;
@@ -50,7 +54,7 @@ body{
 }
 
 h2{
-    font-family: Figtree;
+    font-family: Figtree, Arial;
 }
 
 h2:hover{
@@ -65,7 +69,7 @@ h2:hover{
 .author_container{
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 0.8em;
 }
 
 .author_container img{
