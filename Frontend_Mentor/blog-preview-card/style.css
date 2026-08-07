@@ -53,6 +53,11 @@ h2{
     font-family: Figtree;
 }
 
+h2:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+
 .description{
     color: hsl(0, 0%, 42%);
 }
