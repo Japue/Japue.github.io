@@ -9,11 +9,19 @@
 <body>
     <h1>Stopwatch</h1>
     <div>
-        <p id="timer">00:00:00:00</p>
-        <span>
+        <p id="timer">00:00:00</p>
+        <span class="stopwatchButtons">
             <button type="button" id="start" onclick="start()">Start</button>
             <button type="button" id="stop" onclick="stop()">Stop</button>
             <button type="button" id="reset" onclick="reset()">Reset</button>
+        </span>
+        <span class="speedButtons">
+            <button type="button" id="doubleSpeed" onclick="doubleSpeed()">Double Speed</button>
+            <button type="button" id="halveSpeed" onclick="halveSpeed()">Halve Speed</button>
+        </span>
+        <span class="speedText">
+            <p id="speedPreText">Current Speed Factor: </p>
+            <p id="speed">1</p>
         </span>
     </div>
     <script src="index.js"></script>

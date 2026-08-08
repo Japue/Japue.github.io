@@ -20,16 +20,16 @@ div{
     align-items: center;
 
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-p{
+#timer{
     font-size: 3.5em;
 }
 
-span button{
+.stopwatchButtons button{
     border-radius: 10px;
     font-size: 25px;
     margin: 10px;
@@ -46,4 +46,38 @@ span button{
 
 #reset{
     background-color: blue;
+}
+
+.speedButtons{
+    display: flex;
+    margin-top: 20px;
+}
+
+.speedButtons button{
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+}
+
+#doubleSpeed{
+    background-color: plum;
+}
+
+#halveSpeed{
+    background-color: aqua;
+}
+
+.speedText{
+    display: flex;
+}
+
+.speedText p{
+    font-size: 25px;
+}
+
+#speed{
+    margin-left: 5px;
+    width: 60px;
+    word-break: break-all;
 }
