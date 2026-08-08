@@ -7,6 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script href="index.js"></script>
+    <h1>Calculator</h1>
+    <div class="wrapper">
+        <p id="resultBox"></p>
+        <div class="buttonWrapper">
+            <button type="button" class="operations" id="o+" onclick="plus()">+</button>
+            <button type="button" class="numbers" id="n7" onclick="seven()">7</button>
+            <button type="button" class="numbers" id="n8" onclick="eight()">8</button>
+            <button type="button" class="numbers" id="n9" onclick="nine()">9</button>
+
+            <button type="button" class="operations" id="o-" onclick="minus()">-</button>
+            <button type="button" class="numbers" id="n4" onclick="four()">4</button>
+            <button type="button" class="numbers" id="n5" onclick="five()">5</button>
+            <button type="button" class="numbers" id="n6" onclick="six()">6</button>
+
+            <button type="button" class="operations" id="o*" onclick="multiply()">*</button>
+            <button type="button" class="numbers" id="n1" onclick="one()">1</button>
+            <button type="button" class="numbers" id="n2" onclick="two()">2</button>
+            <button type="button" class="numbers" id="n3" onclick="three()">3</button>
+
+            <button type="button" class="operations" id="o/" onclick="divide()">/</button>
+            <button type="button" class="numbers" id="n0" onclick="zero()">0</button>
+            <button type="button" class="numbers" id="n." onclick="comma()">.</button>
+            <button type="button" class="numbers" id="n=" onclick="equals()">=</button>
+
+            <button type="button" class="operations" id="oC" onclick="trash()">C</button>
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
 </body>
 </html>
