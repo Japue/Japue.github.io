@@ -1,0 +1,49 @@
+body{
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+    margin-top: 50px;
+}
+
+div{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    font-size: 3.5em;
+}
+
+span button{
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+}
+
+#start{
+    background-color: green;
+}
+
+#stop{
+    background-color: red;
+}
+
+#reset{
+    background-color: blue;
+}
