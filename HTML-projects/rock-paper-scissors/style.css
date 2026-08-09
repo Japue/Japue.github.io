@@ -1,0 +1,47 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color: grey;
+    text-align: center;
+}
+
+.buttonWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.buttons{
+    font-size: 150px;
+    background-color: hsl(182, 25%, 50%);
+}
+
+.moves{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moves p{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+#result{
+    text-align: center;
+    font-size: 30px;
+}
+
+.scores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scores p{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
