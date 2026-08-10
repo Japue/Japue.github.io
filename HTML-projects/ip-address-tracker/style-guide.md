@@ -11,29 +11,18 @@ The designs were created to the following widths:
 
 ## Colors
 
-### Primary
-
-- Red 400: hsl(0, 100%, 74%) 
-- Green 400: hsl(154, 59%, 51%)
-
-### Accent
-
-- Purple 700: hsl(248, 32%, 49%)
-
-### Neutral
-
-- Gray 900: hsl(249, 10%, 26%) 
-- Purple 350: hsl(246, 25%, 77%)
+- Gray 950: hsl(0, 0%, 17%)
+- Gray 400: hsl(0, 0%, 58%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 16px
+- Font size (text input): 18px
 
 ### Font
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 400, 500, 600, 700
+- Family: [Rubik](https://fonts.google.com/specimen/Rubik)
+- Weights: 400, 500, 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
