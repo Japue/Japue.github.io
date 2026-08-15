@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
     <div class="input-wrapper">
         <label for="fractal-select">Fractal-type: </label>
         <select name="fractal-select" id="fractal-select">
-            <option value="tree">Tree</option>
+            <option value="tree" selected id="tree-option">Tree</option>
         </select>
 
         <label for="iterations">Iterations: </label>
         <input type="number" placeholder="2"  id="iterations" name="iterations">
 
         <label for="scaling">Scaling: </label>
-        <input type="number" placeholder="0.5" id="scaling" name="scaling">>
+        <input type="number" placeholder="0.5" id="scaling" name="scaling">
     </div>
 
-    
+    <button type = "button" id="submit">Generate</button>
+
+    <script type="module" src="./main.js"></script>
 </body>
 </html>
