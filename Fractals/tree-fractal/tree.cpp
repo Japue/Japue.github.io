@@ -1,7 +1,7 @@
 #include "tree.h"
 #include "basic_structs.h"
 
-std::vector<Line> iterate(float scaling, const std::vector<Line>& previous_line_vector, std::vector<Line>& all_line_vector) {
+std::vector<Line> tree::iterate(float scaling, const std::vector<Line>& previous_line_vector, std::vector<Line>& all_line_vector) {
     std::vector<Line> new_line_vector = {};
     for (const Line& line : previous_line_vector) {
         Line hor_line(
@@ -27,14 +27,15 @@ std::vector<Line> iterate(float scaling, const std::vector<Line>& previous_line_
     return new_line_vector;
 };
 
-std::vector<Line> simulate_tree(int iterations, float window_height, float scaling) {
+
+std::vector<Line> tree::simulate(int iterations, float window_height, float scaling) {
     std::vector<Line> all_line_vector = {
         Line({0.f, window_height / 2.0f}, {0.f, 0.f}, window_height / 2.0f)
     };
     std::vector<Line> previous_line_vector = all_line_vector;
 
     for (int i = 0; i < iterations; i++) {
-        previous_line_vector = iterate(scaling, previous_line_vector, all_line_vector);
+        previous_line_vector = tree::iterate(scaling, previous_line_vector, all_line_vector);
     }
 
     return all_line_vector;

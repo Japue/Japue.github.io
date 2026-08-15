@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(LIBS_DIR "X:/Files/CodingProjects/CppLibraries")
 get_filename_component(TARGET "${CMAKE_CURRENT_SOURCE_DIR}" NAME)
 
-add_executable(${TARGET} main.cpp tree.cpp)
+add_executable(${TARGET} main.cpp tree-fractal/tree.cpp)
 
 #SFML
 target_include_directories(${TARGET} PRIVATE ${LIBS_DIR}/SFML/include)
