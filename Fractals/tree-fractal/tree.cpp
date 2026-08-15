@@ -1,5 +1,5 @@
 #include "tree.h"
-#include "basic_structs.h"
+#include "../basic_structs.h"
 
 std::vector<Line> tree::iterate(float scaling, const std::vector<Line>& previous_line_vector, std::vector<Line>& all_line_vector) {
     std::vector<Line> new_line_vector = {};
