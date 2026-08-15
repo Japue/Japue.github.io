@@ -1,2 +1,4 @@
 Fractals/build/
 Fractals/config.toml
+Fractals/web/fractals.js
+Fractals/web/fractals.wasm
