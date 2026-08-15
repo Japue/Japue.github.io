@@ -4,7 +4,8 @@
 #include <string>
 
 #include "basic_structs.h"
-#include "tree.h"
+#include "sfml_bridge.h"
+#include "tree-fractal/tree.h"
 
 int main() {
 
@@ -95,8 +96,8 @@ int main() {
 
         //drawing
         for (Line line : all_line_vector) {
-            std::array line_array = {sf::Vertex{line.begin.to_sfvector()},
-                                     sf::Vertex{line.end.to_sfvector()}};
+            std::array line_array = {sf::Vertex{to_sfvector(line.begin)},
+                                     sf::Vertex{to_sfvector(line.end)}};
             window.draw(line_array.data(), line_array.size(), sf::PrimitiveType::Lines);
         }
 
