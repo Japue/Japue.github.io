@@ -27,7 +27,7 @@ std::vector<Line> iterate(float scaling, const std::vector<Line>& previous_line_
     return new_line_vector;
 };
 
-std::vector<Line> simulate(int iterations, float window_height, float scaling) {
+std::vector<Line> simulate_tree(int iterations, float window_height, float scaling) {
     std::vector<Line> all_line_vector = {
         Line({0.f, window_height / 2.0f}, {0.f, 0.f}, window_height / 2.0f)
     };

@@ -36,7 +36,7 @@ int main() {
     std::vector<Line> all_line_vector;
     switch (fractal) {
     case 0:
-        all_line_vector = simulate(iterations, view.getSize().x, scaling);
+        all_line_vector = simulate_tree(iterations, view.getSize().x, scaling);
         break;
     }
 
