@@ -15,6 +15,8 @@ function draw(lines) {
     ctx.save();
     ctx.translate(canvas.width / 2, canvas.height / 2);
 
+    ctx.strokeStyle = "white";
+
     ctx.beginPath();
     for (let i = 0; i < lines.size(); i++) {
         const line = lines.get(i);
